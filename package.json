@@ -1,0 +1,23 @@
+{
+  "name": "flowcharter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "man": "man"
+  },
+  "scripts": {
+    "copy:raphael": "cpy 'node_modules/raphael/raphael.min.js' inst/htmlwidgets/lib/raphael/",
+    "build": "npm run copy:raphael"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flowchart.js": "^1.15.0",
+    "raphael": "^2.3.0"
+  },
+  "devDependencies": {
+    "cpy-cli": "^3.1.1"
+  }
+}

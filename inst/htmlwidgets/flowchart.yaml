@@ -1,0 +1,9 @@
+dependencies:
+  - name: raphael
+    version: 2.3.0
+    src: htmlwidgets/lib/raphael
+    script: raphael.min.js
+  - name: flowchart
+    version: 1.15.0
+    src: htmlwidgets/lib/flowchart.js
+    script: flowchart.min.js
