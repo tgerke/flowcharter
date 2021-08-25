@@ -2,3 +2,4 @@
 ^\.Rproj\.user$
 ^node_modules$
 ^package*\.json$
+^README\.Rmd$
